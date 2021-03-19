@@ -1,0 +1,4 @@
+C:\Users\jpmon\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.5981.166\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\jpmon\source\repos\BinaryTree - Copy"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/jpmon/source/repos/BinaryTree - Copy/cmake-build-debug

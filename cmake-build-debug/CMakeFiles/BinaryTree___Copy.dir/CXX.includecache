@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/jpmon/source/repos/BinaryTree - Copy/BinaryTree/BST.cpp
+BST.h
+C:/Users/jpmon/source/repos/BinaryTree - Copy/BinaryTree/BST.h
+map
+-
+stack
+-
+iostream
+-
+vector
+-
+algorithm
+-
+
+C:/Users/jpmon/source/repos/BinaryTree - Copy/BinaryTree/BST.h
+string
+-
+

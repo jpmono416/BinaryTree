@@ -1,0 +1,3 @@
+C:/Users/jpmon/source/repos/BinaryTree - Copy/cmake-build-debug/CMakeFiles/BinaryTree___Copy.dir
+C:/Users/jpmon/source/repos/BinaryTree - Copy/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jpmon/source/repos/BinaryTree - Copy/cmake-build-debug/CMakeFiles/rebuild_cache.dir

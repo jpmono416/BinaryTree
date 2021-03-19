@@ -1,0 +1,3 @@
+C:\Users\jpmon\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.5981.166\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\BinaryTree___Copy.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\BinaryTree___Copy.dir/objects.a @CMakeFiles\BinaryTree___Copy.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\BinaryTree___Copy.dir/objects.a -Wl,--no-whole-archive  -o BinaryTree___Copy.exe -Wl,--out-implib,libBinaryTree___Copy.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BinaryTree___Copy.dir\linklibs.rsp
