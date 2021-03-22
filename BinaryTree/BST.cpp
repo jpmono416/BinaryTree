@@ -16,16 +16,17 @@ struct BST::Node
     {
         key = kt;
         item = it;
-        leftChild = leaf();
-        rightChild = leaf();
+        leftChild = nullptr;
+        rightChild = nullptr;
+
+        //rightChild = leaf(); This gives error "Node* can't be assigned to Node*"
     }
 };
 
 BST::Node* BST::leaf()
 {
-    return nullptr ;
+    return nullptr;
 }
-
 bool BST::isLeaf(Node* n)
 {
     return (n == nullptr);
@@ -58,8 +59,8 @@ BST::ItemType *BST::lookup(BST::KeyType keySought)
 void BST::insert(BST::KeyType newKey, BST::ItemType newItem)
 {
     Node* currentNode = root;
-    Node* previousNode;
-    bool lastRight;
+    Node* previousNode{};
+    bool lastRight{};
 
     // Only triggered with first insert
     if(isLeaf(root))
@@ -80,7 +81,7 @@ void BST::insert(BST::KeyType newKey, BST::ItemType newItem)
             }
             return;
         }
-        else if (currentNode->key == newKey) // Separate IFs to avoid segmentation fault
+        else if (currentNode->key == newKey)
         {
             // Overwriting existing value
             currentNode = new Node(newKey, newItem);
@@ -104,15 +105,21 @@ void BST::insert(BST::KeyType newKey, BST::ItemType newItem)
 
 void BST::displayEntries()
 {
+    // Data structures required for traversing and sorting
     std::stack<Node*> elements;
     std::vector<std::pair <KeyType,ItemType>> sorted;
 
+    // Add root
     elements.push(root);
 
+    // Traverse
     while(!elements.empty())
     {
         auto* node = elements.top();
+
+        // Store into vector to sort later
         sorted.emplace_back(std::make_pair(node->key, node->item));
+
         elements.pop();
 
         if (node->rightChild)
@@ -125,7 +132,10 @@ void BST::displayEntries()
         }
     }
 
+    // Sort vector
     std::sort(sorted.begin(), sorted.end());
+
+    // Display
     for(auto& item : sorted)
     {
         std::cout << '(' << item.first << ", " << item.second << ')' << std::endl;
@@ -133,3 +143,29 @@ void BST::displayEntries()
 }
 
 BST::BST() = default;
+BST::~BST()
+{
+    // Data structures required for traversing and storing values
+    std::stack<Node*> elements;
+
+    // Add root
+    elements.push(root);
+
+    // Traverse
+    while (!elements.empty())
+    {
+        auto* node = elements.top();
+        elements.pop();
+
+        if (node->rightChild)
+        {
+            elements.push(node->rightChild);
+        }
+        if (node->leftChild)
+        {
+            elements.push(node->leftChild);
+        }
+
+        delete(node);
+    }
+}
