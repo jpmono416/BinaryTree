@@ -6,7 +6,7 @@ class BST
 public:
 
     BST();
-
+    ~BST();
     using KeyType = int;
     using ItemType = std::string;
 

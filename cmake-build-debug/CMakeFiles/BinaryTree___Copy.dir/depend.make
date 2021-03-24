@@ -4,6 +4,9 @@
 CMakeFiles/BinaryTree___Copy.dir/BinaryTree/BST.cpp.obj: ../BinaryTree/BST.cpp
 CMakeFiles/BinaryTree___Copy.dir/BinaryTree/BST.cpp.obj: ../BinaryTree/BST.h
 
-CMakeFiles/BinaryTree___Copy.dir/BinaryTree/main.cpp.obj: ../BinaryTree/BST.h
+CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineer.cpp.obj: ../BinaryTree/RoyalEngineer.cpp
+CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineer.cpp.obj: ../BinaryTree/RoyalEngineer.h
+
+CMakeFiles/BinaryTree___Copy.dir/BinaryTree/main.cpp.obj: ../BinaryTree/RoyalEngineer.h
 CMakeFiles/BinaryTree___Copy.dir/BinaryTree/main.cpp.obj: ../BinaryTree/main.cpp
 

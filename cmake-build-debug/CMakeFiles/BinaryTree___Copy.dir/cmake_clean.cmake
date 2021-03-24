@@ -3,7 +3,9 @@ file(REMOVE_RECURSE
   "BinaryTree___Copy.exe.manifest"
   "BinaryTree___Copy.pdb"
   "CMakeFiles/BinaryTree___Copy.dir/BinaryTree/BST.cpp.obj"
+  "CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineerAlt.cpp.obj"
   "CMakeFiles/BinaryTree___Copy.dir/BinaryTree/main.cpp.obj"
+  "CMakeFiles/BinaryTree___Copy.dir/RoyalEngineerAlgorithm.cpp.obj"
   "libBinaryTree___Copy.dll.a"
 )
 

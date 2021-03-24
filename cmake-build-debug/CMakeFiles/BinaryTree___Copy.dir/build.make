@@ -104,21 +104,53 @@ CMakeFiles/BinaryTree___Copy.dir/BinaryTree/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BinaryTree___Copy.dir/BinaryTree/main.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jpmon\source\repos\BinaryTree - Copy\BinaryTree\main.cpp" -o CMakeFiles\BinaryTree___Copy.dir\BinaryTree\main.cpp.s
 
+CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineerAlt.cpp.obj: CMakeFiles/BinaryTree___Copy.dir/flags.make
+CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineerAlt.cpp.obj: CMakeFiles/BinaryTree___Copy.dir/includes_CXX.rsp
+CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineerAlt.cpp.obj: ../BinaryTree/RoyalEngineerAlt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\jpmon\source\repos\BinaryTree - Copy\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineerAlt.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BinaryTree___Copy.dir\BinaryTree\RoyalEngineerAlt.cpp.obj -c "C:\Users\jpmon\source\repos\BinaryTree - Copy\BinaryTree\RoyalEngineerAlt.cpp"
+
+CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineerAlt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineerAlt.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\jpmon\source\repos\BinaryTree - Copy\BinaryTree\RoyalEngineerAlt.cpp" > CMakeFiles\BinaryTree___Copy.dir\BinaryTree\RoyalEngineerAlt.cpp.i
+
+CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineerAlt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineerAlt.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jpmon\source\repos\BinaryTree - Copy\BinaryTree\RoyalEngineerAlt.cpp" -o CMakeFiles\BinaryTree___Copy.dir\BinaryTree\RoyalEngineerAlt.cpp.s
+
+CMakeFiles/BinaryTree___Copy.dir/RoyalEngineerAlgorithm.cpp.obj: CMakeFiles/BinaryTree___Copy.dir/flags.make
+CMakeFiles/BinaryTree___Copy.dir/RoyalEngineerAlgorithm.cpp.obj: CMakeFiles/BinaryTree___Copy.dir/includes_CXX.rsp
+CMakeFiles/BinaryTree___Copy.dir/RoyalEngineerAlgorithm.cpp.obj: ../RoyalEngineerAlgorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\jpmon\source\repos\BinaryTree - Copy\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BinaryTree___Copy.dir/RoyalEngineerAlgorithm.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BinaryTree___Copy.dir\RoyalEngineerAlgorithm.cpp.obj -c "C:\Users\jpmon\source\repos\BinaryTree - Copy\RoyalEngineerAlgorithm.cpp"
+
+CMakeFiles/BinaryTree___Copy.dir/RoyalEngineerAlgorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BinaryTree___Copy.dir/RoyalEngineerAlgorithm.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\jpmon\source\repos\BinaryTree - Copy\RoyalEngineerAlgorithm.cpp" > CMakeFiles\BinaryTree___Copy.dir\RoyalEngineerAlgorithm.cpp.i
+
+CMakeFiles/BinaryTree___Copy.dir/RoyalEngineerAlgorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BinaryTree___Copy.dir/RoyalEngineerAlgorithm.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jpmon\source\repos\BinaryTree - Copy\RoyalEngineerAlgorithm.cpp" -o CMakeFiles\BinaryTree___Copy.dir\RoyalEngineerAlgorithm.cpp.s
+
 # Object files for target BinaryTree___Copy
 BinaryTree___Copy_OBJECTS = \
 "CMakeFiles/BinaryTree___Copy.dir/BinaryTree/BST.cpp.obj" \
-"CMakeFiles/BinaryTree___Copy.dir/BinaryTree/main.cpp.obj"
+"CMakeFiles/BinaryTree___Copy.dir/BinaryTree/main.cpp.obj" \
+"CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineerAlt.cpp.obj" \
+"CMakeFiles/BinaryTree___Copy.dir/RoyalEngineerAlgorithm.cpp.obj"
 
 # External object files for target BinaryTree___Copy
 BinaryTree___Copy_EXTERNAL_OBJECTS =
 
 BinaryTree___Copy.exe: CMakeFiles/BinaryTree___Copy.dir/BinaryTree/BST.cpp.obj
 BinaryTree___Copy.exe: CMakeFiles/BinaryTree___Copy.dir/BinaryTree/main.cpp.obj
+BinaryTree___Copy.exe: CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineerAlt.cpp.obj
+BinaryTree___Copy.exe: CMakeFiles/BinaryTree___Copy.dir/RoyalEngineerAlgorithm.cpp.obj
 BinaryTree___Copy.exe: CMakeFiles/BinaryTree___Copy.dir/build.make
 BinaryTree___Copy.exe: CMakeFiles/BinaryTree___Copy.dir/linklibs.rsp
 BinaryTree___Copy.exe: CMakeFiles/BinaryTree___Copy.dir/objects1.rsp
 BinaryTree___Copy.exe: CMakeFiles/BinaryTree___Copy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\jpmon\source\repos\BinaryTree - Copy\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable BinaryTree___Copy.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\jpmon\source\repos\BinaryTree - Copy\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable BinaryTree___Copy.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\BinaryTree___Copy.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

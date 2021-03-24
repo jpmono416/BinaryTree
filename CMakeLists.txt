@@ -8,4 +8,4 @@ include_directories(BinaryTree)
 add_executable(BinaryTree___Copy
         BinaryTree/BST.cpp
         BinaryTree/BST.h
-        BinaryTree/main.cpp)
+        BinaryTree/main.cpp BinaryTree/RoyalEngineerAlt.cpp BinaryTree/RoyalEngineerAlt.h BinaryTree/RoyalEngineerAlgorithm.cpp BinaryTree/RoyalEngineerAlgorithm.h)

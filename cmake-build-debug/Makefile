@@ -169,6 +169,33 @@ BinaryTree/BST.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinaryTree___Copy.dir\build.make CMakeFiles/BinaryTree___Copy.dir/BinaryTree/BST.cpp.s
 .PHONY : BinaryTree/BST.cpp.s
 
+BinaryTree/RoyalEngineerAlt.obj: BinaryTree/RoyalEngineerAlt.cpp.obj
+
+.PHONY : BinaryTree/RoyalEngineerAlt.obj
+
+# target to build an object file
+BinaryTree/RoyalEngineerAlt.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinaryTree___Copy.dir\build.make CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineerAlt.cpp.obj
+.PHONY : BinaryTree/RoyalEngineerAlt.cpp.obj
+
+BinaryTree/RoyalEngineerAlt.i: BinaryTree/RoyalEngineerAlt.cpp.i
+
+.PHONY : BinaryTree/RoyalEngineerAlt.i
+
+# target to preprocess a source file
+BinaryTree/RoyalEngineerAlt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinaryTree___Copy.dir\build.make CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineerAlt.cpp.i
+.PHONY : BinaryTree/RoyalEngineerAlt.cpp.i
+
+BinaryTree/RoyalEngineerAlt.s: BinaryTree/RoyalEngineerAlt.cpp.s
+
+.PHONY : BinaryTree/RoyalEngineerAlt.s
+
+# target to generate assembly for a file
+BinaryTree/RoyalEngineerAlt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinaryTree___Copy.dir\build.make CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineerAlt.cpp.s
+.PHONY : BinaryTree/RoyalEngineerAlt.cpp.s
+
 BinaryTree/main.obj: BinaryTree/main.cpp.obj
 
 .PHONY : BinaryTree/main.obj
@@ -196,6 +223,33 @@ BinaryTree/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinaryTree___Copy.dir\build.make CMakeFiles/BinaryTree___Copy.dir/BinaryTree/main.cpp.s
 .PHONY : BinaryTree/main.cpp.s
 
+RoyalEngineerAlgorithm.obj: RoyalEngineerAlgorithm.cpp.obj
+
+.PHONY : RoyalEngineerAlgorithm.obj
+
+# target to build an object file
+RoyalEngineerAlgorithm.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinaryTree___Copy.dir\build.make CMakeFiles/BinaryTree___Copy.dir/RoyalEngineerAlgorithm.cpp.obj
+.PHONY : RoyalEngineerAlgorithm.cpp.obj
+
+RoyalEngineerAlgorithm.i: RoyalEngineerAlgorithm.cpp.i
+
+.PHONY : RoyalEngineerAlgorithm.i
+
+# target to preprocess a source file
+RoyalEngineerAlgorithm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinaryTree___Copy.dir\build.make CMakeFiles/BinaryTree___Copy.dir/RoyalEngineerAlgorithm.cpp.i
+.PHONY : RoyalEngineerAlgorithm.cpp.i
+
+RoyalEngineerAlgorithm.s: RoyalEngineerAlgorithm.cpp.s
+
+.PHONY : RoyalEngineerAlgorithm.s
+
+# target to generate assembly for a file
+RoyalEngineerAlgorithm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinaryTree___Copy.dir\build.make CMakeFiles/BinaryTree___Copy.dir/RoyalEngineerAlgorithm.cpp.s
+.PHONY : RoyalEngineerAlgorithm.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -208,9 +262,15 @@ help:
 	@echo ... BinaryTree/BST.obj
 	@echo ... BinaryTree/BST.i
 	@echo ... BinaryTree/BST.s
+	@echo ... BinaryTree/RoyalEngineerAlt.obj
+	@echo ... BinaryTree/RoyalEngineerAlt.i
+	@echo ... BinaryTree/RoyalEngineerAlt.s
 	@echo ... BinaryTree/main.obj
 	@echo ... BinaryTree/main.i
 	@echo ... BinaryTree/main.s
+	@echo ... RoyalEngineerAlgorithm.obj
+	@echo ... RoyalEngineerAlgorithm.i
+	@echo ... RoyalEngineerAlgorithm.s
 .PHONY : help
 
 

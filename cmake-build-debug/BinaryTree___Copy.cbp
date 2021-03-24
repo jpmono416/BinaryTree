@@ -88,7 +88,19 @@
 		<Unit filename="C:/Users/jpmon/source/repos/BinaryTree - Copy/BinaryTree/BST.h">
 			<Option target="BinaryTree___Copy"/>
 		</Unit>
+		<Unit filename="C:/Users/jpmon/source/repos/BinaryTree - Copy/BinaryTree/RoyalEngineerAlt.cpp">
+			<Option target="BinaryTree___Copy"/>
+		</Unit>
+		<Unit filename="C:/Users/jpmon/source/repos/BinaryTree - Copy/BinaryTree/RoyalEngineerAlt.h">
+			<Option target="BinaryTree___Copy"/>
+		</Unit>
 		<Unit filename="C:/Users/jpmon/source/repos/BinaryTree - Copy/BinaryTree/main.cpp">
+			<Option target="BinaryTree___Copy"/>
+		</Unit>
+		<Unit filename="C:/Users/jpmon/source/repos/BinaryTree - Copy/RoyalEngineerAlgorithm.cpp">
+			<Option target="BinaryTree___Copy"/>
+		</Unit>
+		<Unit filename="C:/Users/jpmon/source/repos/BinaryTree - Copy/RoyalEngineerAlgorithm.h">
 			<Option target="BinaryTree___Copy"/>
 		</Unit>
 		<Unit filename="C:/Users/jpmon/source/repos/BinaryTree - Copy/CMakeLists.txt">
