@@ -1,18 +1,16 @@
 #pragma once
-#include <map>
 #include <unordered_map>
+#include <list>
 
-class RoyalEngineerAlt {
+class RoyalEngineerAlgorithm {
 
 public:
-    RoyalEngineerAlt(long amountOfItems);
+    RoyalEngineerAlgorithm(long amountOfItems);
     void populatePileOfBricks();
     long createBrickWall();
     void displayBricks();
 
 private:
+    std::list<std::pair<int, std::string>> brickWall;
     std::unordered_map<int, std::string> pileOfBricks;
-    std::map<int, std::string> brickWall;
-
-
 };

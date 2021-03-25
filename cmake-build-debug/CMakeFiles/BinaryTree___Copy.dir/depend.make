@@ -4,9 +4,13 @@
 CMakeFiles/BinaryTree___Copy.dir/BinaryTree/BST.cpp.obj: ../BinaryTree/BST.cpp
 CMakeFiles/BinaryTree___Copy.dir/BinaryTree/BST.cpp.obj: ../BinaryTree/BST.h
 
-CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineer.cpp.obj: ../BinaryTree/RoyalEngineer.cpp
-CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineer.cpp.obj: ../BinaryTree/RoyalEngineer.h
+CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineerAlgorithm.cpp.obj: ../BinaryTree/RoyalEngineerAlgorithm.cpp
+CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineerAlgorithm.cpp.obj: ../BinaryTree/RoyalEngineerAlgorithm.h
 
-CMakeFiles/BinaryTree___Copy.dir/BinaryTree/main.cpp.obj: ../BinaryTree/RoyalEngineer.h
+CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineerAlt.cpp.obj: ../BinaryTree/RoyalEngineerAlt.cpp
+CMakeFiles/BinaryTree___Copy.dir/BinaryTree/RoyalEngineerAlt.cpp.obj: ../BinaryTree/RoyalEngineerAlt.h
+
+CMakeFiles/BinaryTree___Copy.dir/BinaryTree/main.cpp.obj: ../BinaryTree/RoyalEngineerAlgorithm.h
+CMakeFiles/BinaryTree___Copy.dir/BinaryTree/main.cpp.obj: ../BinaryTree/RoyalEngineerAlt.h
 CMakeFiles/BinaryTree___Copy.dir/BinaryTree/main.cpp.obj: ../BinaryTree/main.cpp
 
